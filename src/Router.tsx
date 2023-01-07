@@ -1,5 +1,5 @@
-import AboutMePage from "@/components/pages/AboutMePage"
 import React from "react"
+import AboutMePage from "@/components/pages/AboutMePage"
 import { HashRouter, Routes, Route } from "react-router-dom"
 
 function Router() {

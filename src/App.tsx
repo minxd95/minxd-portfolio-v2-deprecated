@@ -1,4 +1,3 @@
-import React from "react"
 import Layout from "@/components/Layout"
 import { ThemeProvider } from "@emotion/react"
 import Router from "@/Router"
