@@ -1,7 +1,9 @@
+import React from "react"
+import Layout from "@/components/Layout"
 import { ThemeProvider } from "@emotion/react"
-import Router from "./Router"
+import Router from "@/Router"
 
-const theme = {
+export const theme = {
   colors: {
     primary: "hotpink",
   },
@@ -10,7 +12,9 @@ const theme = {
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Router />
+      <Layout>
+        <Router />
+      </Layout>
     </ThemeProvider>
   )
 }

@@ -1,5 +1,7 @@
+import React from "react"
+
 function AboutMePage() {
-  return <></>
+  return <>aboutme</>
 }
 
 export default AboutMePage
