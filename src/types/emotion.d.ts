@@ -1,4 +1,4 @@
-import { theme } from "@/App"
+import theme from "@/styles/theme"
 
 type ThemeType = typeof theme
 

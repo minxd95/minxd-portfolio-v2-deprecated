@@ -1,12 +1,7 @@
 import Layout from "@/components/Layout"
 import { ThemeProvider } from "@emotion/react"
 import Router from "@/Router"
-
-export const theme = {
-  colors: {
-    primary: "hotpink",
-  },
-}
+import theme from "@/styles/theme"
 
 function App() {
   return (
