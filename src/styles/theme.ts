@@ -1,6 +1,9 @@
 const theme = {
   colors: {
-    primary: "hotpink",
+    text: "var(--shark)",
+  },
+  typography: {
+    weight: { regular: 400, medium: 500, bold: 700 },
   },
 }
 

@@ -1,14 +1,17 @@
 import React from "react"
-import AboutMePage from "@/components/pages/AboutMePage"
+import IntroducePage from "@/components/pages/IntroducePage"
 import { HashRouter, Routes, Route } from "react-router-dom"
+import Layout from "@/components/Layout"
 
 function Router() {
   return (
     <HashRouter>
-      <Routes>
-        <Route path="/" element={<>hello</>} />
-        <Route path="/aboutme" element={<AboutMePage />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<>hello</>} />
+          <Route path="/introduce" element={<IntroducePage />} />
+        </Routes>
+      </Layout>
     </HashRouter>
   )
 }

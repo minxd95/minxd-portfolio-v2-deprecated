@@ -1,4 +1,4 @@
-import Layout from "@/components/Layout"
+import React from "react"
 import { ThemeProvider } from "@emotion/react"
 import Router from "@/Router"
 import theme from "@/styles/theme"
@@ -6,9 +6,7 @@ import theme from "@/styles/theme"
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Layout>
-        <Router />
-      </Layout>
+      <Router />
     </ThemeProvider>
   )
 }
