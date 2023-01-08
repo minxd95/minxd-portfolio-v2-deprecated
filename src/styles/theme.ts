@@ -8,10 +8,10 @@ const theme = {
     header: "var(--white)",
     main: "var(--white)",
     footer: "var(--white)",
+    spinner: "var(--shark)",
   },
   typography: {
     color: { primary: "var(--shark)" },
-    weight: { regular: 400, medium: 500, bold: 700 },
     size: { header: "16px", main: "16px", footer: "16px" },
   },
 }
