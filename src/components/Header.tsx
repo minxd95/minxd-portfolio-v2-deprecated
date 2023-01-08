@@ -5,17 +5,20 @@ import Icon from "@mdi/react"
 import { Link } from "react-router-dom"
 
 function Header() {
-  const { colors, typography } = useTheme()
+  const { typography, color, size } = useTheme()
 
   return (
     <header
       css={css`
-        color: ${colors.text};
+        position: sticky;
+        top: 0;
+        background: ${color.header};
+        font-size: ${typography.size.header};
       `}
     >
       <nav
         css={css`
-          height: 72px;
+          height: ${size.header};
           padding: 0 16px;
           display: flex;
           justify-content: space-between;
